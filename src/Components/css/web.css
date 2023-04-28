@@ -1,0 +1,28 @@
+.dana {
+    text-align: center;
+}
+.container-fluid {
+    background-color: #2f3640;
+}
+
+#title {
+    color: white;
+}
+
+.address {
+    text-align: center;
+}
+
+#search {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: #ff3838;
+}

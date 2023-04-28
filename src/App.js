@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React, { Component } from 'react';
 import { ReactDOM } from 'react';
 import '../src/style.css';
+import Head from './Components/header';
+import Contents from './Components/content';
+
 
 
 function Header(){
@@ -35,23 +38,7 @@ function Header(){
 
   )
 }
-function Menu() {
-  return (
-    <div className="navbar">
-      <a href="#home">Trang chủ</a>
-      <a href="#news">Giới thiệu</a>
-      <a href="#news">Khoa - Phòng</a>
-      <a href="#news">Đào tạo</a>
-      <a href="#news">Tuyển sinh</a>
-      <a href="#news">Nguyên cứu KH</a>
-      <a href="#news">Hoạt động</a>
-      <a href="#news">Lịch công tác</a>
-      <a href="#news">Sinh viên</a>
-      <a href="#news">Đoàn thể</a>
-      
-    </div>
-  );
-}
+
 function Content() {
   return (
    <div className="content">
@@ -484,11 +471,11 @@ class TinhDiem extends React.Component {
 function App() {
   return (
     <div>  
-     <TinhDiem/>
+     <Head/>
+     <Contents/>
     </div>
   );
 }
-
 
 
 export default App
