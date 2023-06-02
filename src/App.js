@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
 import { ReactDOM } from 'react';
 import '../src/style.css';
-import Head from './Components/header';
-import Contents from './Components/content';
+import Head from './sale_phones_web/header';
+import Contents from './sale_phones_web/content';
 
 
 
@@ -464,7 +463,6 @@ class TinhDiem extends React.Component {
       );
     }
   }
-
 
 
 

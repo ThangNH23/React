@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2rem 4%;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+}
+
+.navbar .navigation a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Hero Section */
+.HeroSweper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 4%;
+    background: linear-gradient(to left, #fff 50%, #005e7f 50%);
+}
+
+.HeroSweper .text{
+    max-width: 50%;
+    text-align: left;
+    color: #fff;
+}
+
+.HeroSweper .dates{
+    display: flex;
+}
+
+.HeroSweper .dates p{
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding: 0 20px;
+}
+
+.HeroSweper .text h1{
+    font-size: 60px;
+}
+
+/* Popular Section */
+.Popular{
+    padding-top: 40px;
+}
+
+.Popular .title{
+    color: #005e7f;
+}
+
+.contentPopular{
+    margin-top: 50px;
+    padding: 0 4%;
+}
+
+.contentPopular .card{
+    position: relative;
+}
+
+.contentPopular .card .teks{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+/* Category Section */
+.Category{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 4%;
+    margin-top: 50px;
+    background-color: #005e7f;
+    align-items: center;
+}
+
+.Category .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+.Category .images img{
+    height: 300px;
+    width: 300px;
+}
+
+.Category .images img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Category .imagesCard{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Category .imagesCard h3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background:rgba(255, 255, 255, .5);
+    padding: 8px 14px;
+    border-radius: 30px;
+}
+
+.Category .teks{
+    width: 50%;
+    color: #fff;
+    text-align: left;
+}
+
+.Category button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: gold;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Watch Section */
+.Watch{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding: 3rem 2%;
+    justify-content: space-between;
+}
+
+.Watch .TeksWatch{
+    text-align: left;
+    color: #005e7f;
+}
+
+.Watch .TeksWatch h1{
+    font-size: 40px;
+}
+
+.Watch .btns{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Watch .btns li{
+    margin-right: 20px;
+}
+
+.Watch .btns button{
+    border-radius: 30px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+/* News Section */
+.News{
+    background-color: #005e7f;
+    padding-top: 20px;
+}
+
+.News .title{
+    color: #fff;
+}
+
+.NewsContent{
+    padding: 1rem 4%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+
+.NewsContent .card{
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.NewsContent img{
+    width: 100%;
+}
+
+.NewsContent .card .NewsTeks{
+    background-color: #fff;
+    position: absolute;
+    bottom: -20px;
+    width: 80%;
+    left: 10%;
+}
+
+.NewsContent .card .NewsTeks h2{
+    color: #005e7f;
+}
+
+.NewsContent .card:hover .NewsTeks{
+    transform: translateY(-15px);
+    transition: 1s;
+}
+
+/* Footer Section */
+.footer{
+    display: flex;
+    background-color: gold;
+    padding: 4rem 4%;
+    justify-content: space-around;
+    text-align: left;
+    color: #fff;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer .links{
+    margin-top: 30px;
+}
+
+.footer ul li{
+    margin-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
